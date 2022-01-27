@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js"defer ></script>
+    <title>Podomoro</title>
+</head>
+<body>
+    <div class="container-timer">
+        <div class="time">
+            <p class="text" id="minutess">00</p>
+            <span>minutes</span>
+        </div>
+        <div class="time">
+            <p class="text" id="secondss">00</p>
+            <span>seconds</span>
+        </div>
+    </div>
+    <div class="butons">
+        <button class="pause" type="submit" onclick="pausar()">
+            <div>
+                <img src="/stop.png" alt="">
+            </div>
+        </button>
+        <div class="input">
+            <input type="number" name="" id="timevalue" placeholder="00" maxlength="2">
+        </div>
+        <button class="start" type="submit" onclick="starTimer()">
+            <div>
+                <img src="/play-buttton.png" alt="">
+            </div>
+        </button> 
+    </div>
+    
+</body>
+</html>
